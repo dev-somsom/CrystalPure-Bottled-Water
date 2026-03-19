@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CrystalPure Bottled Water Ltd.</title>
+<link rel="stylesheet" href="CSS/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<!--Meta Data-->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script src="Js/java.js"></script>
+</head>
+
+<body>
+
+<div class="page">
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+    
+    <header class="site-header">
+
+        <div class="header-inner">
+            <a href="index.html" class="logo">CrystalPure</a>
+
+            <nav aria-label="Main Navigation">
+
+
+                <div>
+                    <label for="menu-toggle"
+                           class="menu-icon"
+                           role="button"
+                           tabindex="0"
+                           aria-controls="primary-menu"
+                           aria-label="toggle navigation menu">☰
+                    </label>
+
+                    <ul id="primary-menu" class="nav-links">
+                        <li><label for="menu-toggle" class="close-btn">X</label></li>
+                        <li><a href="index.html">Home</a></li>    
+                        <li><a href="products.html">Our Products</a></li>    
+                        <li><a href="about.html">About</a></li>    
+                        <li><a href="contact.html">Contact</a></li>    
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+    </header>
+
+
+    
+
+    <main>
+
+        <section class="hero hero-contact">
+            <div class="hero-text">
+                <h1>Get In Touch</h1>
+                <p>Have questions about our bottled water or want to become a distributor? Contact us today.</p>
+            </div>
+        </section>
+        
+        <section class="section fade-in">
+            <div class="section-header container text-measure">
+                <h2>Contact Us</h2>
+                <p>We would love to hear from you. Send us a message and our team will respond shortly.</p>
+            </div>
+
+            <div class="container contact-grid">
+                <div class="contact-info">
+                    <h4><i class="fa-solid fa-location-dot"></i></h4>
+                    <p>
+                       No 10 irepodun street, ikola.
+                       <br>
+                       ipaja,Lagos.
+                       <br>
+                       Nigeria
+                    </p>
+                
+                    <h4><i class="fa-solid fa-envelope"></i></h4>
+                    <a href="mailto:info@crystalpurewater.com">info@crystalpurewater.com</a>
+                
+                    <h4><i class="fa-duotone fa-solid fa-phone"></i></h4>
+                    <a href="tel:+2348076243959">+2348076243959</a>
+
+                    <h4>Business Hours:</h4>
+                    <p>Monday - Saturday</p>
+                    <p>8:00 AM - 6:00 PM</p>
+
+                </div>
+
+                <div class="contact-form-warpper">
+                
+                    <form action="https://formspree.io/f/xdawpdbz" method="post" class="contact-form" id="contact-form">
+                       <div class="form-group">
+                           <label for="fname">Full Name</label>
+                           <input type="text" 
+                           id="fname" 
+                           name="fname"
+                           required
+                           placeholder="Full Name">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" 
+                            id="email" 
+                            name="email"
+                            required
+                            placeholder="Enter Email Address">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" 
+                            id="phone" 
+                            name="phone"
+                            placeholder="Enter Phone Number">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea
+                                id="message" 
+                                name="message"
+                                placeholder="Enter Message"
+                                rows="5"
+                               required>
+                           </textarea>
+
+                        </div>
+                    
+                    
+                       <input type="submit" value="Send Message" class="btn btn-primary">
+                    
+                    </form>
+                    <p id="form-message" class="form-message"></p>
+                </div>
+            </div>
+        
+        </section>
+
+
+        <footer class="section footer">
+            <div class="fade-in">
+                <div class="section-header">
+                    <h3>Contact</h3>
+                </div>
+                
+                <h4><i class="fa-solid fa-location-dot"></i></h4>
+                <p>
+                    No 10 irepodun street, ikola.
+                    <br>
+                    ipaja,Lagos.
+                    <br>
+                    Nigeria
+                </p>
+                <h4><i class="fa-solid fa-envelope"></i></h4>
+                <a href="mailto:info@crystalpurewater.com">info@crystalpurewater.com</a>
+
+                <h4><i class="fa-solid fa-phone"></i></h4>
+                <a href="tel:+2348076243959">+2348076243959</a>
+
+                <h4>Business Hours:</h4>
+                <p>Monday - Saturday</p>
+                <p>8:00 AM - 6:00 PM</p>
+            </div>
+
+            <div class="section">
+                &copy; All Rights Reserved. CrystalPure Bottling Company Limited 2026.
+            </div>
+
+        </footer>
+
+
+
+
+    </main>
+</div>
+
+
+</body>
+</html>
