@@ -571,8 +571,8 @@ li {
 .social {
     display: flex;
     flex-wrap: wrap;
-    padding: var(--space-2);
-    font-size: var(--text-2xl);
+    padding: var(--space-1);
+    font-size: var(--text-xl);
 }
 .social-item {
     padding: var(--space-3);
